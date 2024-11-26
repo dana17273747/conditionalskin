@@ -1,8 +1,12 @@
 ﻿# conditionalskin
 
-## minecraft version
+## 前提
 
-1.20.1
+mincraft version: 1.20.1
+
+前提mod: fabric
+
+forgeで利用したい場合はForgified Fabric APIで検索
 
 ## Conditional Skin Configuration
 
