@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "conditionalskin",
+	"version": "${version}",
+	"name": "ConditionalSkin",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/conditionalskin/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"conditionalskin.ConditionalSkin"
+		],
+		"client": [
+			"conditionalskin.ConditionalSkinClient"
+		]
+	},
+	"mixins": [
+		"conditionalskin.mixins.json",
+		{
+			"config": "conditionalskin.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

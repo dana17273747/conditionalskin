@@ -1,0 +1,8 @@
+NOTICE
+
+This project includes mapping data derived from the Yarn project, which is licensed under the Creative Commons Zero v1.0 Universal (CC0) license.
+
+The following files are based on or derived from Yarn mappings:
+- src/client/resources/mapping.json
+
+For more information on Yarn and its licensing, please refer to the Yarn repository: https://github.com/FabricMC/yarn

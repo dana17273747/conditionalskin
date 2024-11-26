@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minversion": "0.8",
+	"package": "conditionalskin.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [],
+	"client": [],
+	"server": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
