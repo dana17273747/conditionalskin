@@ -1,5 +1,9 @@
 ﻿# conditionalskin
 
+## minecraft version
+
+1.20.1
+
 ## Conditional Skin Configuration
 
 この設定では、特定の条件に基づいて異なるスキンを適用することができます。
